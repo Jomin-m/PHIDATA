@@ -42,9 +42,9 @@ This repository hosts a Streamlit application that uses AI agents to fetch and a
 3. **Install Dependencies**:
    pip install -r requirements.txt
    
-4. **Install Dependencies**:
+4. **Set Up Environment Variables**:
   - Create a .env file in the project root:
-  OPENAI_API_KEY=your_openai_api_key
+      OPENAI_API_KEY=your_openai_api_key
   - Replace your_openai_api_key with your OpenAI API key.
     
 5. **Run the Application**:
