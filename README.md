@@ -32,6 +32,25 @@ This repository hosts a Streamlit application that uses AI agents to fetch and a
 ### Installation
 
 1. **Clone the Repository**:
-   ```bash
    git clone https://github.com/your-username/financial-data-news-agent.git
    cd financial-data-news-agent
+   
+2. **Create and Activate a Virtual Environment**:
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+3. **Install Dependencies**:
+   pip install -r requirements.txt
+   
+4. **Install Dependencies**:
+  - Create a .env file in the project root:
+  OPENAI_API_KEY=your_openai_api_key
+  - Replace your_openai_api_key with your OpenAI API key.
+    
+5. **Run the Application**:
+  streamlit run app.py
+
+
+   
+
+
